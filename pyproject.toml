@@ -1,12 +1,9 @@
 [project]
-name = "sc-be-contracts"
+name = "sc_be_contracts"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = [
-    "numpy>=2.3.2",
-    "opencv-python>=4.11.0.86",
-]
+dependencies = ["numpy>=2.3.2", "opencv-python>=4.11.0.86"]
 [tool.hatch.build.targets.wheel]
 packages = ["src"]

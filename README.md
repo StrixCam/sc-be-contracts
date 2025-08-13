@@ -1,1 +1,1 @@
-# sc-be-contracts
+# sc_be_contracts

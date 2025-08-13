@@ -109,7 +109,7 @@ wheels = [
 ]
 
 [[package]]
-name = "sc-be-contracts"
+name = "sc_be_contracts"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
