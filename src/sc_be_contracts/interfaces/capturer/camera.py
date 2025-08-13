@@ -25,3 +25,6 @@ class ICamera(ABC):
 	
 	@abstractmethod
 	def focus(self) -> None: ...
+	
+	@abstractmethod
+	def __capture_loop(self) -> None: ...
