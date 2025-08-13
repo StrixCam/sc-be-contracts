@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from src.models.capturer.frame import Frame
+from src.sc_be_contracts.models.capturer.frame import Frame
 
 
 class ICamera(ABC):

@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
-from src.interfaces.capturer.video import IVideoService
-from src.models.stream import StreamProtocol
+from src.sc_be_contracts.interfaces.capturer.video import IVideoService
+from src.sc_be_contracts.models.stream import StreamProtocol
 
 from .provider import IStreamProvider
 

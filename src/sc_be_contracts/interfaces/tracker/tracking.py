@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
-from src.models.capturer import Frame
-from src.models.tracking import DetectionData
+from src.sc_be_contracts.models.capturer import Frame
+from src.sc_be_contracts.models.tracking import DetectionData
 
 
 class ITracker(ABC):

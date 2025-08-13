@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
 from .ball import BallDetection
-from src.models.tracking.boundaries import Point
+from src.sc_be_contracts.models.tracking.boundaries import Point
 
 
 @dataclass

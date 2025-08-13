@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from src.models.tracking.boundaries import Court
+from src.sc_be_contracts.models.tracking.boundaries import Court
 
 
 @dataclass

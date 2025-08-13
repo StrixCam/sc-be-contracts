@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from src.models.tracking.detection import BallDetection, CourtDetection, PlayerDetection
+from src.sc_be_contracts.models.tracking.detection import BallDetection, CourtDetection, PlayerDetection
 
 
 @dataclass

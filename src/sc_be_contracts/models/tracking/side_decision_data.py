@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from src.models.general.sides import Sides
+from src.sc_be_contracts.models.general.sides import Sides
 
 
 @dataclass

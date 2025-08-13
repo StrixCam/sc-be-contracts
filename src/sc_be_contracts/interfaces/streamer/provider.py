@@ -1,8 +1,8 @@
 from abc import ABC, abstractmethod
 from collections.abc import Generator
 
-from src.models.capturer import Frame
-from src.models.stream import StreamProtocol
+from src.sc_be_contracts.models.capturer import Frame
+from src.sc_be_contracts.models.stream import StreamProtocol
 
 
 class IStreamProvider(ABC):
